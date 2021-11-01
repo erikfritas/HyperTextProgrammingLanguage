@@ -2,7 +2,7 @@
 It's not a joke, I used javascript to create logical html tags
 
 ## Result
-<img href="/imgs/result.png">
+<img width="180em" href="/imgs/result.png">
 
 ## Code
-<img href="/imgs/code.png">
+<img width="180em" href="/imgs/code.png">
