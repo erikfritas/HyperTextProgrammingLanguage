@@ -1,0 +1,80 @@
+body{
+    /* Colors */
+    background-image: linear-gradient(
+        to top right, rgb(36, 160, 255), rgb(57, 255, 186)
+    );
+}
+
+body::before{
+    content: '';
+
+    /* Aligns */
+    position: absolute;
+    z-index: -1;
+    margin-top: -10%;
+    right: 0;
+    margin-right: -10%;
+
+    /* Colors */
+    background-image: none;
+    background-color: var(--ball-top);
+
+    /* Sizes */
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+}
+
+body::after{
+    content: '';
+
+    /* Aligns */
+    position: absolute;
+    z-index: -2;
+    margin-left: -10%;
+    bottom: 0;
+    margin-bottom: -10%;
+
+    /* Colors */
+    background-image: none;
+    background-color: var(--ball-bottom);
+
+    /* Sizes */
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+}
+
+@supports (backdrop-filter: blur(8px)){
+    #body{
+        /* Colors */
+        backdrop-filter: blur(8px)
+    }
+}
+
+main{
+    /* Sizes */
+    width: 100%;
+    height: 100%;
+
+    /* Aligns */
+    overflow: hidden;
+}
+
+#body{
+    /* Colors */
+    background-color: rgba(255, 255, 255, 0.179);
+    border: 2px solid white;
+    box-shadow: inset white 0px 0px 10px 2px;
+
+    /* Sizes */
+    width: 80vw;
+    height: 80vh;
+    border-radius: 30px;
+    padding: 20px 30px;
+
+    /* Aligns */
+    margin: auto;
+    margin-top: 9vh;
+    overflow: hidden;
+}

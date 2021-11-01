@@ -1,0 +1,18 @@
+*{
+    /* Aligns */
+    margin: 0;
+    padding: 0;
+
+    /* Sizes */
+    box-sizing: border-box;
+}
+
+html,body{
+    /* Sizes */
+    height: 100%;
+}
+
+html{
+    /* Aligns */
+    overflow: hidden;
+}
